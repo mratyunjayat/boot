@@ -1,4 +1,4 @@
-package com.mt.example.openapidocs;
+package com.mt.example.boot.resources;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mt.example.openapidocs.domains.Product;
-import com.mt.example.openapidocs.services.ProductService;
+import com.mt.example.boot.domains.Product;
+import com.mt.example.boot.services.ProductService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -27,7 +27,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/products")
 @RequiredArgsConstructor
-public class ApplicationResources {
+public class ProductResources {
 
 	private final ProductService productService;
 

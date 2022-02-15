@@ -1,16 +1,12 @@
-package com.mt.example.openapidocs.domains;
-
-import javax.xml.bind.annotation.XmlRootElement;
+package com.mt.example.boot.domains;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@EqualsAndHashCode
 public class Product {
 	
 	private int id;

@@ -1,4 +1,4 @@
-package com.mt.example.openapidocs.services;
+package com.mt.example.boot.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.mt.example.openapidocs.domains.Product;
+import com.mt.example.boot.domains.Product;
 
 @Service
 public class ProductService {
