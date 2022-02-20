@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.mt.example.boot.domains.User;
+import com.mt.example.boot.entities.User;
 import com.mt.example.boot.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;

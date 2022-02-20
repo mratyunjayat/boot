@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mt.example.boot.domains.User;
+import com.mt.example.boot.entities.User;
 import com.mt.example.boot.services.UserService;
 
 import lombok.RequiredArgsConstructor;

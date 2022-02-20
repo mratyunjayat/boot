@@ -6,7 +6,7 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.mt.example.boot.domains.Product;
+import com.mt.example.boot.entities.Product;
 
 @Service
 public class ProductService {

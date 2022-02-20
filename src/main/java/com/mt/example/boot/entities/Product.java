@@ -1,4 +1,4 @@
-package com.mt.example.boot.domains;
+package com.mt.example.boot.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

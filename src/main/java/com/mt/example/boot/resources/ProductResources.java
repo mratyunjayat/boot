@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mt.example.boot.domains.Product;
+import com.mt.example.boot.entities.Product;
 import com.mt.example.boot.services.ProductService;
 
 import io.swagger.v3.oas.annotations.Operation;

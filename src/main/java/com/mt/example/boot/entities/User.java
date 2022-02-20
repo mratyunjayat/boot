@@ -1,4 +1,4 @@
-package com.mt.example.boot.domains;
+package com.mt.example.boot.entities;
 
 import java.time.LocalDateTime;
 
@@ -16,11 +16,15 @@ import lombok.Data;
 public class User {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	private String userName;
+	private String firstName;
 	
+	private String lastName;
+
+	private String userName;
+
 	private String email;
 	
 	private String password;
